@@ -9,10 +9,10 @@ SECRET_KEY = 'j=npuhw8+f-ag*78yv*=+y^j=4pxb3ogaoafbb^0(sv%dzp4@p'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '[::1]',
-    'testserver',
+    'www.dnker.pythonanywhere.com',
+    'dnker.pythonanywhere.com',
+	'127.0.0.1',
+    'localhost'	
 ]
 
 

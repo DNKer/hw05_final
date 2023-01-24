@@ -8,11 +8,11 @@ handler500 = 'core.views.server_error'
 handler403 = 'core.views.permission_denied'
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path(r'^admin/', admin.site.urls),
     path('', include('posts.urls', namespace='posts')),
-    path('auth/', include('users.urls', namespace='users')),
-    path('auth/', include('django.contrib.auth.urls')),
-    path('about/', include('about.urls', namespace='about')),
+    path(r'^auth/', include('users.urls', namespace='users')),
+    path(r'^auth/', include('django.contrib.auth.urls')),
+    path(r'^about/', include('about.urls', namespace='about')),
 ]
 
 if settings.DEBUG:
