@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/yandex-praktikum/hw05_final/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/yandex-praktikum/hw05_final/actions/workflows/python-app.yml)
 
+![](hw05_final/yatube/static/img/logo.png)
+
 ### Описание проекта:
 
 В репозитории - финальный проект социальной сети (сообщества) Yatube. Позволяет вести блог/создавать заметки авторам с добавлением картинок. Зарегистрированные пользователи могут осуществить подписку на авторов.
